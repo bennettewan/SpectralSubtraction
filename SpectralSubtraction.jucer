@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="jbC3vV" name="SpectralSubtraction" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              cppLanguageStandard="17" headerPath="F:\Desktop\SVN\S22\MUS471\SpectralSubtraction\FFTW&#10;C:\DigiPen\SVN\trunk\S22\MUS471\SpectralSubtraction\FFTW">
+  <MAINGROUP id="An9zOg" name="SpectralSubtraction">
+    <GROUP id="{A6EDD4E2-304A-39A3-E003-7EBFF5B1B7A2}" name="Source">
+      <FILE id="SYPwSc" name="SpectrumGraph.cpp" compile="1" resource="0"
+            file="Source/SpectrumGraph.cpp"/>
+      <FILE id="ZF61Gh" name="SpectrumGraph.h" compile="0" resource="0" file="Source/SpectrumGraph.h"/>
+      <FILE id="L00qSN" name="MicrophoneManager.cpp" compile="1" resource="0"
+            file="Source/MicrophoneManager.cpp"/>
+      <FILE id="PzlTal" name="MicrophoneManager.h" compile="0" resource="0"
+            file="Source/MicrophoneManager.h"/>
+      <FILE id="MVqrtc" name="InputManager.cpp" compile="1" resource="0"
+            file="Source/InputManager.cpp"/>
+      <FILE id="GtKzaw" name="InputManager.h" compile="0" resource="0" file="Source/InputManager.h"/>
+      <FILE id="Ow2Ftn" name="CircularBuffer.cpp" compile="1" resource="0"
+            file="Source/CircularBuffer.cpp"/>
+      <FILE id="oqA4ca" name="CircularBuffer.h" compile="0" resource="0"
+            file="Source/CircularBuffer.h"/>
+      <FILE id="GmhQdA" name="SpectralSubtraction.cpp" compile="1" resource="0"
+            file="Source/SpectralSubtraction.cpp"/>
+      <FILE id="Asb799" name="SpectralSubtraction.h" compile="0" resource="0"
+            file="Source/SpectralSubtraction.h"/>
+      <FILE id="U4t3ei" name="SpeechEnhancer.cpp" compile="1" resource="0"
+            file="Source/SpeechEnhancer.cpp"/>
+      <FILE id="lRsZBy" name="SpeechEnhancer.h" compile="0" resource="0"
+            file="Source/SpeechEnhancer.h"/>
+      <FILE id="hwKnVv" name="FrequencyGraph.cpp" compile="1" resource="0"
+            file="Source/FrequencyGraph.cpp"/>
+      <FILE id="K1mMKZ" name="FrequencyGraph.h" compile="0" resource="0"
+            file="Source/FrequencyGraph.h"/>
+      <FILE id="Gch5IL" name="ReferenceCountedBuffer.h" compile="0" resource="0"
+            file="Source/ReferenceCountedBuffer.h"/>
+      <FILE id="LbvtQB" name="GraphComponent.cpp" compile="1" resource="0"
+            file="Source/GraphComponent.cpp"/>
+      <FILE id="aC3B14" name="GraphComponent.h" compile="0" resource="0"
+            file="Source/GraphComponent.h"/>
+      <FILE id="enbP4F" name="SignalVisualizer.cpp" compile="1" resource="0"
+            file="Source/SignalVisualizer.cpp"/>
+      <FILE id="vedeCn" name="SignalVisualizer.h" compile="0" resource="0"
+            file="Source/SignalVisualizer.h"/>
+      <FILE id="iYrVhr" name="FileManager.cpp" compile="1" resource="0" file="Source/FileManager.cpp"/>
+      <FILE id="vmEkYb" name="FileManager.h" compile="0" resource="0" file="Source/FileManager.h"/>
+      <FILE id="Y1dl6h" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="pACVqT" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="XhuWKT" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019" externalLibraries="libfftw3-3.lib;libfftw3f-3.lib;libfftw3l-3.lib">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SpectralSubtraction" libraryPath="F:\Desktop\SVN\S22\MUS471\SpectralSubtraction\FFTW&#10;C:\DigiPen\SVN\trunk\S22\MUS471\SpectralSubtraction\FFTW"
+                       useRuntimeLibDLL="0"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SpectralSubtraction"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
